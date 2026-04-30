@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form UMKM - Mie Ayam Alok</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    .fade-in {
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+
+<body class="bg-gradient-to-br from-blue-100 to-green-100 min-h-screen flex items-center justify-center p-4">
+
+  <div class="bg-white shadow-xl rounded-2xl w-full max-w-2xl p-6 fade-in">
+    
+    <h1 class="text-2xl font-bold text-center text-blue-600 mb-6">
+      Form Data UMKM
+    </h1>
+
+    <form class="space-y-4">
+
+      <!-- Nama UMKM -->
+      <div>
+        <label class="block text-sm font-semibold">Nama UMKM</label>
+        <input type="text" value="mie ayam alok"
+          class="w-full p-2 border rounded-lg focus:ring-2 focus:ring-blue-400">
+      </div>
+
+      <!-- Pemilik -->
+      <div>
+        <label class="block text-sm font-semibold">Nama Pemilik</label>
+        <input type="text" value="rasyaa"
+          class="w-full p-2 border rounded-lg focus:ring-2 focus:ring-blue-400">
+      </div>
+
+      <!-- Alamat -->
+      <div>
+        <label class="block text-sm font-semibold">Alamat Lengkap</label>
+        <textarea class="w-full p-2 border rounded-lg focus:ring-2 focus:ring-blue-400">jln.petamburan 06</textarea>
+      </div>
+
+      <!-- Kontak -->
+      <div>
+        <label class="block text-sm font-semibold">No. HP / WhatsApp</label>
+        <input type="text" value="0881027311886"
+          class="w-full p-2 border rounded-lg focus:ring-2 focus:ring-blue-400">
+      </div>
+
+      <!-- Email -->
+      <div>
+        <label class="block text-sm font-semibold">Email (opsional)</label>
+        <input type="email" placeholder="Masukkan email..."
+          class="w-full p-2 border rounded-lg focus:ring-2 focus:ring-blue-400">
+      </div>
+
+      <!-- Deskripsi -->
+      <div>
+        <label class="block text-sm font-semibold">Deskripsi Usaha</label>
+        <textarea class="w-full p-2 border rounded-lg focus:ring-2 focus:ring-blue-400">mie kuning rebus dengan topping ayam kecap, sayuran, dan kuah gurih.</textarea>
+      </div>
+
+      <!-- Kategori -->
+      <div>
+        <label class="block text-sm font-semibold">Kategori Usaha</label>
+        <input type="text" value="usaha kuliner, makanan cepat saji"
+          class="w-full p-2 border rounded-lg focus:ring-2 focus:ring-blue-400">
+      </div>
+
+      <!-- Jam -->
+      <div>
+        <label class="block text-sm font-semibold">Jam Operasional</label>
+        <input type="text" value="09.00 - 17.00"
+          class="w-full p-2 border rounded-lg focus:ring-2 focus:ring-blue-400">
+      </div>
+
+      <!-- Produk -->
+      <div>
+        <label class="block text-sm font-semibold">Daftar Produk</label>
+        <textarea class="w-full p-2 border rounded-lg focus:ring-2 focus:ring-blue-400">
+1. mie ayam biasa - 15.000
+2. mie ayam spesial bakso + pangsit rebus - 20.000
+        </textarea>
+      </div>
+
+      <!-- Nama Produk -->
+      <div>
+        <label class="block text-sm font-semibold">Nama Produk</label>
+        <input type="text" value="mie ayam alok"
+          class="w-full p-2 border rounded-lg focus:ring-2 focus:ring-blue-400">
+      </div>
+
+      <!-- Harga -->
+      <div>
+        <label class="block text-sm font-semibold">Harga</label>
+        <input type="text" value="15.000 - 20.000 spesial"
+          class="w-full p-2 border rounded-lg focus:ring-2 focus:ring-blue-400">
+      </div>
+
+      <!-- Deskripsi singkat -->
+      <div>
+        <label class="block text-sm font-semibold">Deskripsi Singkat</label>
+        <textarea class="w-full p-2 border rounded-lg focus:ring-2 focus:ring-blue-400">rasanya sangat lezat dan kuah nya gurih</textarea>
+      </div>
+
+      <!-- Button -->
+      <button type="submit"
+        class="w-full bg-gradient-to-r from-blue-500 to-green-500 text-white py-2 rounded-lg font-semibold hover:scale-105 transition transform duration-300">
+        Simpan Data
+      </button>
+
+    </form>
+
+  </div>
+
+</body>
+</html>
